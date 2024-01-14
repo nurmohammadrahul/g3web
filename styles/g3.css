@@ -123,7 +123,10 @@ main {
 .feature {
     display: flex;
     margin-top: 130px;
-    gap: 100px;
+    gap: 40px;
+}
+.feature-content{
+    width: 35%;
 }
 
 .feature-content .card {
@@ -141,7 +144,7 @@ main {
 }
 .feature-image img{
       height: 90%;
-      margin-left: 90px;
+      margin-left: 50px;
 }
 
 .ten-years {
@@ -149,8 +152,8 @@ main {
     border: none;
     color: #FFF;
     background-color: #FF900E;
-    width: 320px;
-    padding: 40px;
+    width: 300px;
+    padding: 30px;
     text-align: center;
     position: relative;
     bottom: 100px;
@@ -212,8 +215,10 @@ main {
 /* footer */
 footer{
     align-items: center;
-    padding: 40px 300px;
+    padding: 40px 500px;
     background-color: #FFF4E7;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* responsive */
